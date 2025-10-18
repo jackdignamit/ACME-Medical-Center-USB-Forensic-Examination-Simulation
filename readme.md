@@ -42,12 +42,12 @@ The newly restored suspect drive would never be opened to ensure integrity of th
 *All software used to conduct this examination is either owned or licensed to (me, my company,
 etc) and has been fully tested and/or validated for usage.*
 
-| Tool | Version | Purpose |
-|------|----------|----------|
-| **USB Write Blocker ALL Windows** | v1.3 | Prevents evidence tampering |
-| **OSForensics** | 11.0.1007 | Imaging and hash verification |
-| **FTK Imager** | 4.7.3.81 | Imaging, hash calculation, data validation |
-| **Autopsy** | 4.22.1 | File recovery, content analysis |
+| Tool | Version |
+|------|----------|
+| **USB Write Blocker ALL Windows** | v1.3 |
+| **OSForensics** | 11.0.1007 |
+| **FTK Imager** | 4.7.3.81 |
+| **Autopsy** | 4.22.1 |
 
 **Hardware:**
 | Component | Description |
@@ -58,38 +58,28 @@ etc) and has been fully tested and/or validated for usage.*
 
 - - -
 
-## Methodology
+## **Methodology**
 
 ### 1️⃣ Initial Setup
 
-### 2️⃣ Hardware Inspection
-- Received USB drive (Transcend 8 GB, serial G4EXUA2E) at **11:21 AM EST**.  
-- Physical inspection confirmed no damage to casing or connectors.  
-- The drive was photographed and documented before imaging [(Appendix A)](https://github.com/jackdignamit/ACME-Medical-Center-USB-Forensic-Examination-Simulation/edit/main/readme.md#appendix-a-suspect-usb-inspection-photos).
-
-### 3️⃣ Imaging
-
-### 
-
 - - -
 
-## Simulation Findings
+### 2️⃣ Hardware Inspection
+I received the USB drive (Transcend 8 GB, serial G4EXUA2E) at **11:21 AM EST**. The drive does not appear to have its connections or external casing damaged. I photographed and documented before imaging.
 
-After conducting a thorough investigation into the provided USB drive, I determined it contains potential illegal images. 
-Despite some files being overwritten and corrupted, there is more than enough evidence to support the criminality of the contents of Joe Bob’s drive. 
-A total of 149 confirmed photos of illegal content were located. Due to the explicit nature of the images recovered, the photos and drive will be turned into law enforcement for further investigation.
-
-### Appendix A: Suspect USB Inspection Photos
+### *Appendix A: Suspect USB Inspection Photos*
 
 <img width="635" height="436" alt="image" src="https://github.com/user-attachments/assets/7a9ee8f3-3634-466c-9956-3d8799f4b253" />
 
-### Appendix B: Hash Values
+- - -
 
-<img width="761" height="372" alt="image" src="https://github.com/user-attachments/assets/b5199b38-e1e4-40fe-86d1-d44daf32b76b" />
+### 3️⃣ Forensic Imaging
 
-All hash values matched, confirming data integrity from acquisition through analysis.
+- - -
 
-### Appendix C: Images
+### 4️⃣ Findings: Images and Videos
+
+### *Appendix B: Images*
 
 <img width="493" height="217" alt="image" src="https://github.com/user-attachments/assets/b16e953b-9c2f-4fef-93c7-104a157db21a" />
 
@@ -102,6 +92,24 @@ The blurred photo **would** be used for the DFIR report.
 The unblurred photo **would NOT** be used for the DFIR report.
 
 *For legal and ethical reasons, blurred photos must be utilized in reports to avoid breaking laws and chain-of-custody rules.*
+
+- - -
+
+### 5️⃣ Final Hash Values
+
+### *Appendix C: Hash Values*
+
+<img width="761" height="372" alt="image" src="https://github.com/user-attachments/assets/b5199b38-e1e4-40fe-86d1-d44daf32b76b" />
+
+All hash values matched, confirming data integrity from acquisition through analysis.
+
+- - -
+
+## Simulation Findings
+
+After conducting a thorough investigation into the provided USB drive, I determined it contains potential illegal images. 
+Despite some files being overwritten and corrupted, there is more than enough evidence to support the criminality of the contents of Joe Bob’s drive. 
+A total of 149 confirmed photos of illegal content were located. Due to the explicit nature of the images recovered, the photos and drive will be turned into law enforcement for further investigation.
 
 - - -
 
