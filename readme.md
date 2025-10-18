@@ -21,10 +21,6 @@ This project demonstrate **professional forensic methodology** including:
 - Analysis using industry-standard tools *(FTK Imager, Autopsy, OSForensics)*  
 - Structured documentation of findings *(view above Google Drive link)*
 
-The primary objective is to confiscate a USB and investigate it for evidence of policy violation (photos of cats). Then, document using forensic procedures and ensure repeatability and data integrity. Lastly, maintain professional report structure for possible legal usage.  
-
-*(The Google Drive link listed above contains the professional report.)*
-
 - - -
 
 ## Scenario
@@ -32,11 +28,11 @@ The ACME Medical Center security team confiscated a USB device from employee Joe
 Medical Center requests that all findings be documented in this report. The results of this analysis may be admissible in court proceedings.
 
 ### Flash Drive Setup:
-The USB flash drive used for this examination was restored using OSForensics with an image called **Furry Image** which contained the contraband cat photos. This will act as our suspect drive.
+The USB flash drive used for this examination was restored using OSForensics with an image called **"Furry Image"** which contained the contraband cat photos. This will act as our suspect drive.
 
 <img width="778" height="460" alt="image" src="https://github.com/user-attachments/assets/e63cd3fe-ba1a-449a-a70e-670d2d7efeca" />
 
-The newly restored suspect drive would never be opened to ensure integrity of the origianl evidence.
+The newly restored suspect drive would never be opened to ensure integrity of the original evidence.
 
 - - -
 
@@ -67,22 +63,22 @@ etc) and has been fully tested and/or validated for usage.*
 ### 1️⃣ Initial Setup
 
 ### 2️⃣ Hardware Inspection
+- Received USB drive (Transcend 8 GB, serial G4EXUA2E) at **11:21 AM EST**.  
+- Physical inspection confirmed no damage to casing or connectors.  
+- The drive was photographed and documented before imaging [(Appendix A)](https://github.com/jackdignamit/ACME-Medical-Center-USB-Forensic-Examination-Simulation/edit/main/readme.md#appendix-a-suspect-usb-inspection-photos).
 
 ### 3️⃣ Imaging
 
-### 4️⃣ Imaging
+### 
 
 - - -
 
-## Findings (Simulated)
+## Simulation Findings
 
 After conducting a thorough investigation into the provided USB drive, I determined it contains potential illegal images. 
 Despite some files being overwritten and corrupted, there is more than enough evidence to support the criminality of the contents of Joe Bob’s drive. 
 A total of 149 confirmed photos of illegal content were located. Due to the explicit nature of the images recovered, the photos and drive will be turned into law enforcement for further investigation.
 
-- - -
-
-## Appendix
 ### Appendix A: Suspect USB Inspection Photos
 
 <img width="635" height="436" alt="image" src="https://github.com/user-attachments/assets/7a9ee8f3-3634-466c-9956-3d8799f4b253" />
