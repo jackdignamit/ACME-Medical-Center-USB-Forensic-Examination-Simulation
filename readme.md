@@ -14,18 +14,17 @@ This project demonstrate **professional forensic methodology** including:
 - Analysis using industry-standard tools *(FTK Imager, Autopsy, OSForensics)*  
 - Structured documentation of findings *(view above Google Drive link)*
 
-> ## ⚠️ **Disclaimer:**
->  ### All "contraband" are simply just **photos of cats.**   
-> This investigation is entirely fictional and no real illegal material or sensitive data is used.  
-> All names, files, and evidence are simulated replicas of a realistic forensic scenario and workflow.  
-
 - - -
 
 ## Scenario
 The ACME Medical Center security team confiscated a USB device from employee Joe Bob, who is suspected of viewing illegal material on company computers and drives. The ACME
 Medical Center requests that all findings be documented in this report. The results of this analysis may be admissible in court proceedings.
 
-### Flash Drive Setup:
+> **Disclaimer:**  
+> All "contraband" are simply just **photos of cats.**   
+> This investigation is entirely fictional and no real illegal material or sensitive data is used.  
+> All names, files, and evidence are simulated replicas of a realistic forensic scenario and workflow.  
+
 The USB flash drive used for this examination was restored using OSForensics with an image called **"Furry Image"** which contained the contraband cat photos. This will act as our suspect drive.
 
 <img width="778" height="460" alt="image" src="https://github.com/user-attachments/assets/e63cd3fe-ba1a-449a-a70e-670d2d7efeca" />
